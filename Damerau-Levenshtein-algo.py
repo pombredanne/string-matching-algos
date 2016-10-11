@@ -1,6 +1,6 @@
 # Compute the Damerau-Levenshtein distance between two given strings (s1 and s2)
 def damerau_levenshtein_distance(s1, s2):
-    d = {}
+    d = []
     lenstr1 = len(s1)
     lenstr2 = len(s2)
     for i in xrange(-1,lenstr1+1):
